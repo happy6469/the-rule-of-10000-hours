@@ -97,11 +97,13 @@ h2 {
     text-align: center;
     position: relative;
     margin-bottom: 102px;
+   
+    
 }
 
 .quotes {
     position: absolute;
-    transform: translate(-50%, 100%);
+   transform: translate(-50%, 100%);
 }
 
 .large-text {
@@ -129,30 +131,19 @@ h2 {
 }
 
 .howlong {
-    display: flex;
-}
-.how {
     font-family: 'GmarketSansBold', sans-serif;
     width: 565px;
     height: 66px;
     font-size: 24px;
     font-weight: 700;
-    border:1px solid;
+    border:1px solid black;
     border-radius: 56px;
     background: #FCEE21;
     color: #5B2386;
     text-align: center;
-    padding-top: 20px;
+    padding-bottom: 15px;
     gap: 10px;
     margin-bottom: 147px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
-}
-
-.howlong img{
-   width: 64px;
-   height: 72px;
-   margin-top: 10px;
-   margin-left: 10px;
 }
 
 .practice {
@@ -169,7 +160,7 @@ h2 {
     font-size: 24px;
     color: #5B2386;
     display: inline-block;
-    border:1px solid;
+    border:1px solid black;
     background-color: #FCEE21;
     width: 356px;
     height: 66px;
@@ -177,13 +168,12 @@ h2 {
     text-align: center;
     line-height: 66px;
     text-decoration: none;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
 }
 
 .share {
     font-family: 'GmarketSansBold', sans-serif;
     display: inline-block;
-    border: 1px solid;
+    border: 1px solid black;
     width: 191px;
     height: 66px; 
     background-color: #FFFFFF;
@@ -191,7 +181,6 @@ h2 {
     text-align: center;
     line-height: 66px;
     border-radius: 56px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
 }
 footer{
     display: flex;
@@ -214,7 +203,6 @@ footer img {
     height: 800px;
     background-color: #FFFFFF;
     border-radius: 30px;
-    display: none; 
 }
 .modal-content {
     font-family:'OTEnjoystoriesBA', sans-serif;
@@ -239,7 +227,6 @@ footer img {
     height: 337px;
     text-align: center;
     margin-bottom: 20px;
-    margin-top: -20px
 }
 .realgogo {
     font-family: 'GmarketSansBold', sans-serif;
@@ -251,145 +238,5 @@ footer img {
     border-radius: 56px;
     gap:10px;
     background-color: #FCEE21;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
-}
 
-@media screen and (max-width: 480px) {
-    html {
-        background-color: #5B2386;
-    }
-
-    body {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        color: white;
-        padding: 10px;
-    }
-
-    section {
-        font-size: 18px;
-        text-align: center;
-    }
-
-    .title-container {
-        height: auto;
-        margin-bottom: 20px;
-    }
-
-    .title-image1 {
-        width: 80%;
-        max-width: 280px;
-        height: auto;
-        margin-top: 150px;
-    }
-
-    .title-image2 {
-        width: 50%;
-        max-width: 180px;
-        height: auto;
-        margin-top: 150px;
-    }
-
-    h2 {
-        font-size: 28px;
-        width: auto;
-        height: auto;
-        margin-top: 30px;
-        margin-bottom: 40px;
-    }
-
-    .rule {
-        font-size: 16px;
-        width: 90%;
-        margin-bottom: 80px;
-    }
-
-    .input-field {
-        width: 80%;
-        height: 50px;
-        font-size: 18px;
-    }
-
-    .input-field::placeholder {
-        font-size: 18px;
-    }
-
-    .howlong {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .how {
-        width: 90%;
-        font-size: 18px;
-        padding: 15px;
-    }
-
-    .howlong img {
-        width: 50px;
-        height: 55px;
-    }
-
-    .practice {
-        margin-bottom: 80px;
-    }
-
-    .programming {
-        font-size: 48px;
-    }
-
-    .gogo {
-        font-size: 18px;
-        width: 80%;
-        height: 50px;
-        line-height: 50px;
-    }
-
-    .share {
-        width: 150px;
-        height: 50px;
-        font-size: 14px;
-        line-height: 50px;
-    }
-
-    footer {
-        font-size: 10px;
-        margin-top: 80px;
-    }
-
-    footer img {
-        width: 100px;
-        height: 20px;
-    }
-
-    .modal-overlay {
-        width: 90%;
-        height: auto;
-        padding: 20px;
-    }
-
-    .modal-content {
-        font-size: 18px;
-    }
-
-    .fighting {
-        font-size: 60px;
-    }
-
-    .cheer {
-        font-size: 24px;
-    }
-
-    .licat {
-        width: 70%;
-        height: auto;
-    }
-
-    .realgogo {
-        width: 80%;
-        font-size: 18px;
-        height: 50px;
-    }
 }
